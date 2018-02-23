@@ -517,6 +517,10 @@ header {
 }
 
 .home .site-info {
+  display: block;
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
   padding-left: 0;
   overflow: visible;
 }
