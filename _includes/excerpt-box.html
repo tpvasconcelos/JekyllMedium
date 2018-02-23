@@ -1,0 +1,76 @@
+<div class="post">
+
+    <div class="default-box">
+
+        <!-- HEADER -->
+        {% include header.html date=include.post.date full_text=include.post.content %}
+
+        <div class="excerpt">
+
+            <a href="{{ site.baseurl }}{{ include.post.url }}" class="default-box">
+                <div>
+
+                    <!-- POST IMAGE -->
+                    {% assign image = include.post.images[0] %}
+                    {% if image %}
+                    <div class="crop-height">{% include image.html image=image crop=true %}</div>
+                    {% endif %}
+
+                    <!-- POST TITLE -->
+                    <h1>{{ include.post.title }}</h1>
+
+                    <!-- POST SUBTITLE -->
+                    <h2>{{ include.post.subtitle }}</h2>
+
+                    <!--{% if include.post.content contains "</h2>" %}-->
+                    <!--{% assign h2_split_content = include.post.content | split:'</h2>' %}-->
+                    <!--{% assign h2 = '' %}-->
+                    <!--{{ h2 | append: h2_split_content[0] }}-->
+                    <!--{{ h2 | append: '</h2>' }}-->
+                    <!--{{ h2 }}-->
+                    <!--{% endif %}-->
+
+
+                    <!-- POST EXCERPT -->
+                    {% if include.post.description %}
+                        {% assign description = include.post.description %}
+                    {% else %}
+                        {% if h2 %}
+                            {% assign description = description | remove_first:h2 %}
+                        {% else %}
+                            {% assign description = include.post.content %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% if image %}
+                        {% assign maxwords = 20 %}
+                        {% assign maxwordscharacters = 140 %}
+                        {% assign maxlinesclass = "two-lines" %}
+                    {% else %}
+                        {% assign maxwords = 30 %}
+                        {% assign maxwordscharacters = 200 %}
+                        {% assign maxlinesclass = "three-lines" %}
+                    {% endif %}
+
+                    {% assign description = description | strip_html | truncatewords: maxwords %}
+                    <!--{% assign description = description | strip_html | truncate: maxwordscharacters %}-->
+
+                    <div class="excerpt-entry {{ maxlinesclass }}">{{ description }}</div>
+
+
+                </div>
+            </a>
+
+        </div>
+
+        <div class="read-more">
+            <a href="{{ site.baseurl }}{{ include.post.url }}" class="read-more">Read more...</a>
+        </div>
+
+        <div class="excerpt-footer">
+            <a class="comment-count" href="{{ site.baseurl }}{{ include.post.url }}#disqus_thread">responses</a>
+            <!--<a class="excerpt-bottom-right" href=""></a>-->
+        </div>
+
+    </div>
+</div>
