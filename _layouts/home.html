@@ -28,7 +28,7 @@
         </div>
 
         <div class="site-avatar">
-            <img class="site-avatar" src="{{site.baseurl}}{{ site.avatar }}"/>
+            <img class="site-avatar" src="{{ site.baseurl }}{{ site.avatar }}"/>
         </div>
 
     </header>
@@ -43,10 +43,10 @@
             {% if p.layout == 'home' %}
 
             {% if p.title == page.title %}
-            <li class="current"><a href="{{site.baseurl}}/{{ p.url }}">{{ p.title }}</a></li>
+            <li class="current"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
 
             {% else %}
-            <li><a href="{{site.baseurl}}/{{ p.url }}">{{ p.title }}</a></li>
+            <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
 
             {% endif %}
 

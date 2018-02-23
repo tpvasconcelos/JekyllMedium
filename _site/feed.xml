@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-23T16:31:06+00:00</updated><id>http://localhost:4000/</id><title type="html">JekyllMedium</title><subtitle>Seventy year old genius alcoholic</subtitle><entry><title type="html">Test: Lists</title><link href="http://localhost:4000/tests/lists/" rel="alternate" type="text/html" title="Test: Lists" /><published>2018-02-04T00:00:00+00:00</published><updated>2018-02-04T00:00:00+00:00</updated><id>http://localhost:4000/tests/Test-List</id><content type="html" xml:base="http://localhost:4000/tests/lists/">&lt;hr /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/JekyllMedium/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/JekyllMedium/" rel="alternate" type="text/html" /><updated>2018-02-23T17:18:02+00:00</updated><id>http://localhost:4000/JekyllMedium/</id><title type="html">JekyllMedium</title><subtitle>Seventy year old genius alcoholic</subtitle><entry><title type="html">Test: Lists</title><link href="http://localhost:4000/JekyllMedium/tests/lists/" rel="alternate" type="text/html" title="Test: Lists" /><published>2018-02-04T00:00:00+00:00</published><updated>2018-02-04T00:00:00+00:00</updated><id>http://localhost:4000/JekyllMedium/tests/Test-List</id><content type="html" xml:base="http://localhost:4000/JekyllMedium/tests/lists/">&lt;hr /&gt;
 
 &lt;h3 id=&quot;the-basics&quot;&gt;The Basics&lt;/h3&gt;
 
@@ -155,7 +155,7 @@ You will probably encounter weird behaviour experimenting with different combina
       &lt;li&gt;
         &lt;p&gt;Images can also be nested into list-items:&lt;/p&gt;
 
-        &lt;p&gt;&lt;img src=&quot;/files/Tutorials/Lists/Lenna.png&quot; alt=&quot;Lena Söderberg, by Dwight Hooker.&quot; title=&quot;Lenna&quot; /&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;img src=&quot;/JekyllMedium/files/Tutorials/Lists/Lenna.png&quot; alt=&quot;Lena Söderberg, by Dwight Hooker.&quot; title=&quot;Lenna&quot; /&gt;&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ol&gt;
   &lt;/li&gt;
@@ -229,7 +229,7 @@ You will probably encounter weird behaviour experimenting with different combina
 
 &lt;p&gt;Unfortunately not all objects behave as expected.
     &lt;strong&gt;Images&lt;/strong&gt;, for instance, do not render captions well.
-    The caption lands outside the list-item, breaking the list.&lt;/p&gt;</content><author><name></name></author><category term="Tests" /><category term="tutorial" /><category term="jekyll" /><category term="markdown" /><category term="docs" /><category term="test" /><category term="design test" /><category term="edge case" /><category term="test" /><category term="lists" /><summary type="html"></summary></entry><entry><title type="html">Test: Maths, Equations and MathJax integration</title><link href="http://localhost:4000/tests/math/" rel="alternate" type="text/html" title="Test: Maths, Equations and MathJax integration" /><published>2018-01-27T00:00:00+00:00</published><updated>2018-01-27T00:00:00+00:00</updated><id>http://localhost:4000/tests/Tutorial-Maths</id><content type="html" xml:base="http://localhost:4000/tests/math/">&lt;hr /&gt;
+    The caption lands outside the list-item, breaking the list.&lt;/p&gt;</content><author><name></name></author><category term="Tests" /><category term="tutorial" /><category term="jekyll" /><category term="markdown" /><category term="docs" /><category term="test" /><category term="design test" /><category term="edge case" /><category term="test" /><category term="lists" /><summary type="html"></summary></entry><entry><title type="html">Test: Maths, Equations and MathJax integration</title><link href="http://localhost:4000/JekyllMedium/tests/math/" rel="alternate" type="text/html" title="Test: Maths, Equations and MathJax integration" /><published>2018-01-27T00:00:00+00:00</published><updated>2018-01-27T00:00:00+00:00</updated><id>http://localhost:4000/JekyllMedium/tests/Tutorial-Maths</id><content type="html" xml:base="http://localhost:4000/JekyllMedium/tests/math/">&lt;hr /&gt;
 
 &lt;h3 id=&quot;frobenius-companion&quot;&gt;Frobenius’ companion&lt;/h3&gt;
 
