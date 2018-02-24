@@ -27,6 +27,8 @@ $$
 
 Cute, right?
 
+---
+
 ### The second virial coefficient a bounded Mie potential
 
 A bounded Mie potential is a continuous analog of the (discontinuous) penetrable hard-sphere / top-hat potential
