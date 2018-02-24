@@ -30,15 +30,9 @@
                         {% assign description = include.post.content %}
                     {% endif %}
                     <!-- Set word limit -->
-                    {% if image %}
-                        {% assign maxwords = 20 %}
-                        {% assign maxwordscharacters = 140 %}
-                        {% assign maxlinesclass = "two-lines" %}
-                    {% else %}
-                        {% assign maxwords = 30 %}
-                        {% assign maxwordscharacters = 200 %}
-                        {% assign maxlinesclass = "three-lines" %}
-                    {% endif %}
+                    {% assign maxwords = 20 %}
+                    {% assign maxwordscharacters = 140 %}
+                    {% assign maxlinesclass = "two-lines" %}
                     <!-- Truncate and 'print' description -->
                     <!--{% assign description = description | strip_html | truncate: maxwordscharacters %}-->
                     {% assign description = description | strip_html | truncatewords: maxwords %}
