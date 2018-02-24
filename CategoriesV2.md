@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Categories02
-permalink: /categories02/
+title: Categories (V2)
+permalink: /categoriesV2/
 ---
 
 {% for cat in site.categories %}
