@@ -17,18 +17,16 @@
 
         <div class="site-info">
 
-            <a class="site-name" href="{{ site.baseurl }}">{{ site.name }}</a>
+            <a class="site-name" href="{{ site.baseurl }}/">{{ site.name }}</a>
 
             <div class="site-description">{{ site.description }}</div>
-
-            <!--<div class="svg-contacts">-->
-            <!--{% include svg-icons.html %}-->
-            <!--</div>-->
 
         </div>
 
         <div class="site-avatar">
-            <img class="site-avatar" src="{{ site.baseurl }}{{ site.avatar }}"/>
+            <a class="site-name" href="{{ site.baseurl }}/">
+                <img class="site-avatar" src="{{ site.baseurl }}{{ site.avatar }}"/>
+            </a>
         </div>
 
     </header>
@@ -40,17 +38,13 @@
     <nav>
         <ul>
             {% for p in site.pages %}
-            {% if p.layout == 'home' %}
-
-            {% if p.title == page.title %}
-            <li class="current"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
-
-            {% else %}
-            <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
-
-            {% endif %}
-
-            {% endif %}
+                {% if p.layout == 'home' %}
+                    {% if p.title == page.title %}
+                        <li class="current"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+                    {% else %}
+                        <li><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+                    {% endif %}
+                {% endif %}
             {% endfor %}
         </ul>
     </nav>
