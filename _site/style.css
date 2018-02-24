@@ -705,6 +705,7 @@ nav ul li::before {
 nav ul li {
   display: inline-block;
   margin-right: 20px;
+  margin-bottom: 0;
   padding-bottom: 8px;
   line-height: 25px;
 }
