@@ -25,7 +25,6 @@ $$
 \end{equation}
 $$
 
-Cute, right?
 
 ---
 
@@ -85,7 +84,9 @@ $$
 
 in the $$r \rightarrow 0$$ limit, where $$H_k(s)$$ is the ordinary Hermite polynomial and $$_2F_1(a,b;c;z)$$ the hypergeometric function.
 
-Also, how cool is this? $$\downarrow \downarrow \downarrow$$
+---
+
+Interestingly,
 
 $$
 \begin{equation}
