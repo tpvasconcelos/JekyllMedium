@@ -18,28 +18,22 @@ html {
 }
 
 body {
-  font-family: $LoraFont;
+  font-family: $SerifFont;
   color: $gray9;
   font-size: $fs_body;
   line-height: $lh_body;
   font-weight: 400;
 
-  //background-color: #ffffff;
-
-  //margin-top: $mt_body;
-
-  overflow-wrap: break-word;
   visibility: visible;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-wrap: break-word;
   text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
 
   @include mobile {
     font-size: calc(#{$mobile_scale_mid} * #{$fs_body});
     line-height: calc(#{$mobile_scale_mid} * #{$lh_body});
-    //margin-top: calc(#{$mobile_scale_big} * #{$mt_body});
     -moz-text-size-adjust: none;
   }
-
 }
 
 article {
@@ -66,7 +60,7 @@ article {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $OpenSansFont;
+  font-family: $SansSerifFont;
   color: $gray9;
   margin-left: -2.5px;
 }
@@ -302,7 +296,7 @@ img {
 figcaption {
   line-height: $lh_figcaption;
   font-size: $fs_figcaption;
-  font-family: $OpenSansFont;
+  font-family: $SansSerifFont;
   color: $gray6;
   font-weight: 600;
   display: block;
@@ -416,7 +410,7 @@ header {
   min-height: 1px;
   align-items: center;
 
-  font-family: $OpenSansFont;
+  font-family: $SansSerifFont;
   font-weight: 400;
   letter-spacing: 0;
   line-height: $lh_header;
@@ -535,7 +529,7 @@ header {
 
 a.site-name {
   color: $gray9;
-  font-family: $OpenSansFont;
+  font-family: $SansSerifFont;
   font-size: 16px;
   letter-spacing: -0.1px;
   font-weight: 400;
@@ -666,7 +660,7 @@ a.site-name {
         background-color: $gray5;
       }
       a {
-        font-family: $OpenSansFont;
+        font-family: $SansSerifFont;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -725,7 +719,7 @@ nav {
         color: $gray6;
         cursor: pointer;
         display: inline-block;
-        font-family: $OpenSansFont;
+        font-family: $SansSerifFont;
         font-size: 15px;
         font-weight: 400;
         letter-spacing: -0.7px;
@@ -756,7 +750,7 @@ div.excerpt {
 .excerpt-entry {
   line-height: $lh_excerpt_entry;
   font-size: $fs_excerpt_entry;
-  font-family: $LoraFont;
+  font-family: $SerifFont;
   overflow: hidden;
   &.two-lines {
     max-height: calc(2 * #{$lh_excerpt_entry}) !important;
@@ -817,7 +811,7 @@ div.default-box {
   color: $gray6;
   cursor: pointer;
   display: inline-block;
-  font-family: $OpenSansFont;
+  font-family: $SansSerifFont;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -852,7 +846,7 @@ a.comment-count {
   color: $gray6;
   cursor: pointer;
   float: left;
-  font-family: $OpenSansFont;
+  font-family: $SansSerifFont;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
