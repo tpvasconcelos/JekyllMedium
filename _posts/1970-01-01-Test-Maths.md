@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Test: Maths, Equations and MathJax integration"
-subtitle: Visual examples of inline and block equations; edge testing different kinds of equations.
+title: "Test post: Maths, Equations and MathJax integration"
+subtitle: "Testing MathJax integration. Visual examples of inline and block equations; edge testing different kinds of equations."
 permalink: /tests/math/
 category: Tests
 tags: [tutorial, jekyll, markdown, docs, test, design test, edge case, test, MathJax, Maths, equations]
 ---
 
----
 
-### Frobenius' companion
+
+# Frobenius' companion
 
 The roots of an $$m^{\text{th}}$$ degree monic polynomial, of the form $$x^m + c_{m-1} x^{m-1} + \cdots + c_1 x + c_0$$, are given by the eigenvalues of the "Frobenius companion matrix" [1]
 
@@ -26,11 +26,11 @@ $$
 $$
 
 
----
 
-### The second virial coefficient a bounded Mie potential
+# The second virial coefficient a bounded Mie potential
 
-A bounded Mie potential is a continuous analog of the (discontinuous) penetrable hard-sphere / top-hat potential
+A bounded Mie potential is a continuous analog of the (discontinuous)
+penetrable hard-sphere/top-hat potential
 
 $$
 \begin{equation}
@@ -82,7 +82,8 @@ $$
 \end{equation}
 $$
 
-in the $$r \rightarrow 0$$ limit, where $$H_k(s)$$ is the ordinary Hermite polynomial and $$_2F_1(a,b;c;z)$$ the hypergeometric function.
+in the $$r \rightarrow 0$$ limit, where $$H_k(s)$$ is the ordinary
+Hermite polynomial and $$_2F_1(a,b;c;z)$$ the hypergeometric function.
 
 ---
 
@@ -125,7 +126,7 @@ $$
 
 
 
-### References
+# References
 
 1. H. Fatoorehchi and H. Abolghasemi, Journal of the Egyptian Mathematical Society, **22**(3):524 – 528 (2014); [https://doi.org/10.1016/j.joems.2013.12.018](https://doi.org/10.1016/j.joems.2013.12.018)
 1. D. M. Heyes and T. Pereira de Vasconcelos, The Journal of Chemical Physics **147**, 214504 (2017); [https://doi.org/10.1063/1.5006035](https://doi.org/10.1063/1.5006035)
